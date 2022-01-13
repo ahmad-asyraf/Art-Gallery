@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- @Author: Asyraf -->
+    <title> Art Gallery - Visit Profile </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="image/brand-favicon-white.png">
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Educational Purpose UI/UX Students">
+    <!-- Main CSS -->
+    <link href="css/user-account.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- START NAVBAR -->
+    <div class="container-fluid nav-exp fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="image/brand.png" class="img-brand" alt="Brand Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="introduction.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">gallery</a>
+                        </li>
+                    </ul>
+                    <div class="right">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery-user.html">
+                                    <img src="image/male-icon.png" class="img-user img-fluid" alt="Brand Logo"> micheal 
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    account
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#"><span class="bi bi-gear"></span> settings</a></li>
+                                    <li><a class="dropdown-item" href="#"><span class="bi bi-door-open"></span> logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- HEADER SECTION END -->
+    <!-- CONTENT -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-9">
+                    <!-- PROFILE HEADER -->
+                    <div class="row profile-header pt-5 pb-lg-5 pb-3 mx-1">
+                        <div class="col-12 col-sm-3 col-lg-2">
+                            <div class="text-center">
+                                <img src="image/male-icon.png" class="profile-picture img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-7 mt-3 mt-lg-0 text-center text-lg-start">
+                            <div class="text-center text-lg-start">
+                                <label class="artist-name form-label">ARTIST -</label> MICHEAL
+                            </div>
+                            <label class="artist-bio form-label">BIOGRAPHY</label> 
+                            <p>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis rerum deserunt nam iste fugiat nulla accusamus? 
+                                Velit corporis molestiae expedita nobis aliquam iure explicabo, quo, suscipit ab dolore quaerat?
+                            </p>
+                            <button class="btn btn-primary col col-md-5"><span class="bi-pencil-square"></span> Edit profile</button>
+                            <button class="btn btn-primary col col-md-5"><span class="bi-pencil"></span> Add artwork</button>
+                        </div>
+                        <div class="col-12 col-sm-2 mt-3 mt-lg-0">
+                            <div class="row text-center text-lg-start">
+                                <div class="col col-lg-12">100 Views</div>
+                                <div class="col">15 Artwork</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- GALLERY -->
+                    <div class="gallery">
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Angora.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Cyberpunk.png"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Forgotten Future.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Lindingo.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Megacity.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Angora.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Cyberpunk.png"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Forgotten Future.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Lindingo.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Megacity.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Angora.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Cyberpunk.png"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Forgotten Future.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Lindingo.jpg"></a>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-2 m-3 gambar">
+                                    <a href=""><img src="image/Megacity.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- INBOX -->
+                <div class="col-md">
+                    <div class="inbox-header">
+                        <h3>INBOX</h3>
+                    </div>
+                    <div class="inbox-message">
+                        <div class="">
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="message">
+                                <div class="message-box">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="message-profile">
+                                                <img src="image/male-icon.png" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col message">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quidem perferendis aperiam esse, maiores numquam? Vitae, quam obcaecati nihil esse quia assumenda ipsum? Consectetur quia quod facere perferendis natus pariatur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>   
+                <!-- FOOTER -->
+                <div class="container-fluid py-5 footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p>&copy; 2021 Universiti Malaysia Terengganu</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="social-media text-center">
+                                <a href="" class="bi bi-facebook"></a>
+                                <a href="" class="bi bi-instagram"></a>
+                                <a href="" class="bi bi-twitter"></a>
+                                <a href="" class="bi bi-youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>       
+    </section>
+</body>
+</html>

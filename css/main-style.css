@@ -1,0 +1,198 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/tree.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+body, .nav-exp, .main, .footer, .main-gallery, .user-profile {
+    /*font-family: 'Cinzel', serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+.nav-exp {
+    box-shadow: 0px 0px 10px rgb(194, 194, 194);
+}
+.navbar, .nav-exp, .footer {
+    background-color: aliceblue;
+}
+.navbar a {
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    font-variant: small-caps;
+}
+.navbar a:hover {
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.img-brand {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+.img-user {
+    width: 30px;
+}
+.main { height: 100vh; }
+.main a, .main-gallery a { text-decoration: none; }
+.main-gallery {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.main-purchase {
+    height: 100%;
+}
+.social-media a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.social-media a:hover {
+    color: rgb(0, 136, 255);
+    transition: 0.5s;
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+.view, .artwork {
+    font-size: 20px;
+}
+.artist-name {
+    font-size: 30px;
+}
+.nav-item { padding-left: 10px; }
+.gallery-name { font-size: 80px; }
+.mini { font-size: 18px; }
+.brand-logo-1 img {
+    text-align: center;
+    width: 200px;
+}
+.kotak, .kotak-kerja {
+    background-color: aliceblue;
+    height: 100%;
+}
+.kotak-gallery { background-color: white; }
+.input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding: 8px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    width: 100%;
+}
+.email, .m-number, .s-msg {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding: 8px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    width: 100%;
+}
+.kotak-kanan { 
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(216, 216, 216);
+}
+.gallery-sidenav { list-style-type: none; }
+.gallery-sidenav li { padding: 10px; }
+.gambar { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 250px;
+    box-shadow: 0px 0px 15px rgb(182, 182, 182);
+    border-radius: 5px;
+}
+div .gambar:hover, .gambar img:hover {
+    overflow: hidden;
+    transition: 0.9s;
+}
+.gambar img:hover {
+    transform: scale(0.4);
+}
+.gambar img {
+    flex-shrink: 0;
+    min-width: 100%;
+    max-height: 100%;
+}
+a.btn-categories {
+    background-color: aliceblue;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 5px;
+}
+.intro {
+    background-color: white;
+    height: 100vh;
+}
+.intro-vid {
+    width: 100%;
+}
+.video-caption {
+    padding-bottom: 10px;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.image-details {
+    background: white;
+}
+.image-canvas {
+    padding: 10px;
+}
+.purchase-box {
+    border: 1px solid gray;
+}
+.about-us {
+    background: white;
+}
+.profile img {
+    width: 200px;
+    height: auto;
+}
+.team-box {
+    min-height: 300px;
+    border: 1px solid rgb(241, 241, 241);
+    width: 250px;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(228, 228, 228);
+}
+
+/*--------- Screen Media ----------------*/
+@media only screen and (max-width: 768px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-image: none;
+    }
+    .gallery-name { font-size: 60px; }
+    .main { text-align: center; }
+    .main-sm { height: 100%; }
+}
+@media only screen and (max-width: 425px) {
+    .main-s {
+        height: 100%;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .intro-s {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .intro-vid {
+        width: 100%;
+    }
+    .team-box {
+        width: auto;
+    }
+}

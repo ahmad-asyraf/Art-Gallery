@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/nature-hd.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+}
+/*--------- LOGIN BOX ----------*/
+.login-box {
+    box-shadow: 0px 0px 10px rgb(24, 24, 24);
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.signup, .forgot {
+    text-decoration: none;
+}
+.signup:hover, .forgot:hover {
+    color: black;
+}
+.left-box {
+    padding: 50px;
+    opacity: 0.9;
+    background-color: aliceblue;
+}
+.right-box {
+    padding: 50px;
+    background-color: aliceblue
+}
+.login-form input {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border: none;
+}
+.brand-name h1, h2 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 64px;
+}
